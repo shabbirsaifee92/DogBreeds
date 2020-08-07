@@ -13,6 +13,9 @@
 		F123BF1424D62040009E4E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F123BF1324D62040009E4E65 /* Assets.xcassets */; };
 		F123BF1724D62040009E4E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F123BF1624D62040009E4E65 /* Preview Assets.xcassets */; };
 		F123BF1A24D62040009E4E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F123BF1824D62040009E4E65 /* LaunchScreen.storyboard */; };
+		F123BF2224D62635009E4E65 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123BF2124D62635009E4E65 /* ImagePicker.swift */; };
+		F18DCEBE24DCD084005222A9 /* DetectImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18DCEBD24DCD084005222A9 /* DetectImage.swift */; };
+		F18DCEC024DCD0E5005222A9 /* All_AKC_Breeds_Reworked_1500.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F18DCEBF24DCD0E5005222A9 /* All_AKC_Breeds_Reworked_1500.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F123BF1624D62040009E4E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F123BF1924D62040009E4E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F123BF1B24D62040009E4E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F123BF2124D62635009E4E65 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F18DCEBD24DCD084005222A9 /* DetectImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectImage.swift; sourceTree = "<group>"; };
+		F18DCEBF24DCD0E5005222A9 /* All_AKC_Breeds_Reworked_1500.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = All_AKC_Breeds_Reworked_1500.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				F123BF0D24D6203F009E4E65 /* AppDelegate.swift */,
 				F123BF0F24D6203F009E4E65 /* SceneDelegate.swift */,
 				F123BF1124D6203F009E4E65 /* ContentView.swift */,
+				F123BF2124D62635009E4E65 /* ImagePicker.swift */,
+				F18DCEBD24DCD084005222A9 /* DetectImage.swift */,
+				F18DCEBF24DCD0E5005222A9 /* All_AKC_Breeds_Reworked_1500.mlmodel */,
 				F123BF1324D62040009E4E65 /* Assets.xcassets */,
 				F123BF1824D62040009E4E65 /* LaunchScreen.storyboard */,
 				F123BF1B24D62040009E4E65 /* Info.plist */,
@@ -147,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F123BF0E24D6203F009E4E65 /* AppDelegate.swift in Sources */,
+				F123BF2224D62635009E4E65 /* ImagePicker.swift in Sources */,
+				F18DCEBE24DCD084005222A9 /* DetectImage.swift in Sources */,
 				F123BF1024D6203F009E4E65 /* SceneDelegate.swift in Sources */,
+				F18DCEC024DCD0E5005222A9 /* All_AKC_Breeds_Reworked_1500.mlmodel in Sources */,
 				F123BF1224D6203F009E4E65 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
